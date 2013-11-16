@@ -25,22 +25,10 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="2jD-Bh-1Nw"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label will show up in the trunk after metching" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnH-Te-diB">
-                                <color key="backgroundColor" red="0.83007195649999999" green="0.25382650690000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="LkW-Be-VEF"/>
-                                    <constraint firstAttribute="width" constant="371" id="QEK-eG-KDm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XnH-Te-diB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="399" id="CN1-qe-3iG"/>
                             <constraint firstItem="zcZ-TY-RAK" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="JWa-se-Xg8"/>
-                            <constraint firstItem="XnH-Te-diB" firstAttribute="centerX" secondItem="zcZ-TY-RAK" secondAttribute="centerX" type="default" id="QXb-gt-jwR"/>
                             <constraint firstItem="zcZ-TY-RAK" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="x35-8h-6Lo"/>
                         </constraints>
                     </view>
