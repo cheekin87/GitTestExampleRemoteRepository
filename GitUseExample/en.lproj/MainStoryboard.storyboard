@@ -44,26 +44,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label2 will show up in the trunk after metching" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMC-S1-THI">
-                                <color key="backgroundColor" red="0.36821712779999999" green="0.84345278530000001" blue="0.15320378849999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="I6w-Cy-Vuv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="iMC-S1-THI" firstAttribute="top" secondItem="3" secondAttribute="top" constant="184" id="3Ey-G7-jbB"/>
                             <constraint firstItem="XnH-Te-diB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="399" id="CN1-qe-3iG"/>
                             <constraint firstItem="zcZ-TY-RAK" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="JWa-se-Xg8"/>
-                            <constraint firstItem="iMC-S1-THI" firstAttribute="trailing" secondItem="XnH-Te-diB" secondAttribute="trailing" type="default" id="Odc-h3-Xgc"/>
+                            <constraint firstItem="XnH-Te-diB" firstAttribute="trailing" secondItem="6Oh-bQ-rs1" secondAttribute="trailing" type="default" id="JiV-eT-5X2"/>
                             <constraint firstItem="XnH-Te-diB" firstAttribute="centerX" secondItem="zcZ-TY-RAK" secondAttribute="centerX" type="default" id="QXb-gt-jwR"/>
-                            <constraint firstItem="iMC-S1-THI" firstAttribute="trailing" secondItem="6Oh-bQ-rs1" secondAttribute="trailing" type="default" id="SfM-rl-Cdf"/>
-                            <constraint firstItem="iMC-S1-THI" firstAttribute="leading" secondItem="XnH-Te-diB" secondAttribute="leading" type="default" id="XTH-y8-Qqw"/>
-                            <constraint firstItem="iMC-S1-THI" firstAttribute="leading" secondItem="6Oh-bQ-rs1" secondAttribute="leading" type="default" id="Xfe-bk-mc4"/>
+                            <constraint firstItem="6Oh-bQ-rs1" firstAttribute="leading" secondItem="XnH-Te-diB" secondAttribute="leading" type="default" id="ZxO-aE-hcy"/>
                             <constraint firstItem="6Oh-bQ-rs1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="134" id="up4-zd-wCB"/>
                             <constraint firstItem="zcZ-TY-RAK" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="x35-8h-6Lo"/>
                         </constraints>
